@@ -17,7 +17,7 @@ public class Screenshort {
 
 	public WebDriver driver;
 	public Screenshort() {
-		driver = BrowserSetup.driver;
+		this.driver = BrowserSetup.driver;
 	}
 	 public void takeScreenShot(){
 
